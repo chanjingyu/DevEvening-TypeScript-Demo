@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript Demo - DevEvening</title>
+    <link rel="stylesheet" href="../app.css" type="text/css" />
+</head>
+<body>
+    <h1>TypeScript Demo - DevEvening</h1>
+    <h2>Sample 2: Types</h2>
+    <h3>Example 1: types / intellisense</h3>
+    <p>Demonstrate how types are specified</p>
+    <ul>
+        <li>TS supports the basic types in JS</li>
+        <li>How declared: point out <strong>:string</strong></li>
+        <li>Demostrate <strong>intellisense</strong> </li>
+        <li>Demostrate <strong>Type inference</strong></li>
+        <li>Change to <strong>number</strong>-- point out errors</li>
+        <li>Change to bool -- more errors</li>
+        <li>Change to string[] - show we get more intellisens x[0]</li>
+        <li>Change to function <strong>() =&gt string</strong> syntax</li>
+    </ul>
+    <h3>Example 2: declarations and interfaces</h3>
+    <ul>
+        <li>Pass object ref {a: 0, b: "" }</li>
+        <li>can give names to types: Interface</li>
+        <li>e.g. thing</li>
+        <li>Add another value to this c:bool = error</li>
+        <li>Make property optional</li>
+        <li>modify caller to use wrong type of c: e.g. 5</li>
+        <li>replace c with function foo(s:string):string</li>
+        <li>optional args + default</li>
+        <li>Overload functions: foo(string), foo(number)</li>
+        <li>Can also have 'new (params):type' and [index:number]:type 
+            <br />
+        </li>
+        <li>Note the JQuery &#39;hack&#39;: <strong>declare var $: any;</strong></li>
+    </ul>
+
+</body>
+</html>

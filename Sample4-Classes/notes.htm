@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript Demo - DevEvening</title>
+    <link rel="stylesheet" href="../app.css" type="text/css" />
+</head>
+<body>
+    <h1>TypeScript Demo - DevEvening</h1>
+    <h2>Sample 4: Classes</h2>
+    <h3>Example 1:</h3>
+    <p>Demonstrate how classes are specified:</p>
+    <ul>
+        <li>Can declare properties, or set the values directly (infers type)</li>
+        <li>Functions are applied to the prototype</li>
+        <li>We can define a constructor</li>
+        <li>Methods and properties can be defined as public / private (not protected -- yet)<br />
+            This is ONLY compile time / intellisense enforcement</li>
+    </ul>
+    <p>
+        &nbsp;</p>
+    <h3>Example 2: Lexical Scoping</h3>
+    <p>Common JS error referring to the wrong &quot;this&quot;</p>
+    <ul>
+        <li>example2: simple tracker code</li>
+        <li>Show the demo: <strong>NaN </strong>appears</li>
+        <li>Go to example 2: &quot;wrong this&quot; (any)</li>
+        <li>JS: the common practice is save the context: <strong>var that = this</strong></li>
+        <li>TS: Using the lamda syntax <strong>&nbsp;=&gt; </strong>will do this for you</li>
+        <li>Apply the FIX -- show the&nbsp; <strong>var _this = this;</strong> addition</li>
+        <li>Show the tracker now works </li>
+    </ul>
+    <p>
+        &nbsp;</p>
+<h3>Example 3: Inheritance</h3>
+    <ul>
+        <li>Use &quot;<strong>extends</strong>&quot; keyword</li>
+        <li>Access to parent via <strong>super</strong></li>
+        <li>Can call super constructor via super()</li>
+        <li>Override methods by declaring same</li>
+        <li>No &quot;virtual&quot; methods</li>
+        <li>Generates a LOT of JS!! CF: clean TS on left, convoluted JS on right</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{31F2EA26-10ED-4D4C-A5BE-114B1E71387F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UpgradeBackupLocation />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="default.htm" />
+    <Content Include="Sample1-WhatIsTypeScript\example1JS.js" />
+    <Content Include="Sample1-WhatIsTypeScript\notes.htm" />
+    <Content Include="Sample1-WhatIsTypeScript\example1.js">
+      <DependentUpon>example1.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample2-Types\notes.htm" />
+    <Content Include="Sample3-Modules\notes.htm" />
+    <Content Include="Sample4-Classes\bike.png" />
+    <Content Include="Sample4-Classes\car.png" />
+    <TypeScriptCompile Include="Scratch\anders1.ts" />
+    <Content Include="Sample4-Classes\notes.htm" />
+    <Content Include="Sample5-ApplicationLevelJS\notes.htm" />
+    <Content Include="Scratch\sample1.js">
+      <DependentUpon>anders1.ts</DependentUpon>
+    </Content>
+    <Content Include="Scratch\scratch.htm" />
+    <TypeScriptCompile Include="Scratch\scratch.ts" />
+    <Content Include="Sample2-Types\example2.htm" />
+    <Content Include="Sample2-Types\example1.htm" />
+    <Content Include="Sample2-Types\example1.js">
+      <DependentUpon>example1.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample2-Types\example2.js">
+      <DependentUpon>example2.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample4-Classes\example3.htm" />
+    <TypeScriptCompile Include="Sample4-Classes\example3.ts" />
+    <Content Include="Sample4-Classes\example1.htm" />
+    <Content Include="Sample4-Classes\example1.js">
+      <DependentUpon>example1.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample4-Classes\example2.htm" />
+    <Content Include="Sample4-Classes\example2.js">
+      <DependentUpon>example2.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample4-Classes\example3.js">
+      <DependentUpon>example3.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample3-Modules\example1.htm" />
+    <Content Include="Sample3-Modules\example1.js">
+      <DependentUpon>example1.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample3-Modules\example2.htm" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\DevEvening.Application.Product.ts" />
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\DevEvening.Application.Cart.CartItem.ts" />
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\DevEvening.Util.Web.ts" />
+    <Content Include="Sample5-ApplicationLevelJS\DevEvening.Application.Cart.CartItem.js">
+      <DependentUpon>DevEvening.Application.Cart.CartItem.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\DevEvening.Application.Cart.ShoppingCart.ts" />
+    <Content Include="Sample5-ApplicationLevelJS\DevEvening.Application.Cart.ShoppingCart.js">
+      <DependentUpon>DevEvening.Application.Cart.ShoppingCart.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample5-ApplicationLevelJS\DevEvening.Application.Product.js">
+      <DependentUpon>DevEvening.Application.Product.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample5-ApplicationLevelJS\DevEvening.Util.MathLib.js">
+      <DependentUpon>DevEvening.Util.MathLib.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\DevEvening.Util.MathLib.ts" />
+    <Content Include="Sample5-ApplicationLevelJS\DevEvening.Util.Web.js">
+      <DependentUpon>DevEvening.Util.Web.ts</DependentUpon>
+    </Content>
+    <Content Include="Sample5-ApplicationLevelJS\shoppingCart.htm" />
+    <TypeScriptCompile Include="Sample5-ApplicationLevelJS\ShoppingCartPage.ts" />
+    <Content Include="Sample5-ApplicationLevelJS\ShoppingCartPage.js">
+      <DependentUpon>ShoppingCartPage.ts</DependentUpon>
+    </Content>
+    <Content Include="Scratch\scratch.js">
+      <DependentUpon>scratch.ts</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="web.config" />
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <TypeScriptCompile Include="Sample3-Modules\example2.ts" />
+    <Content Include="Sample3-Modules\example2.js">
+      <DependentUpon>example2.ts</DependentUpon>
+    </Content>
+    <Content Include="TS\jquery.d.ts" />
+    <TypeScriptCompile Include="Sample3-Modules\example1.ts" />
+    <TypeScriptCompile Include="Sample4-Classes\example2.ts" />
+    <TypeScriptCompile Include="Sample4-Classes\example1.ts" />
+    <TypeScriptCompile Include="Sample2-Types\example2.ts" />
+    <TypeScriptCompile Include="Sample2-Types\example1.ts" />
+    <Content Include="Sample1-WhatIsTypeScript\example1.htm" />
+    <TypeScriptCompile Include="Sample1-WhatIsTypeScript\example1.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DevEvening_TypeScriptDemo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1283</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:45133/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="BeforeBuild">
+    <Exec Command="&quot;$(PROGRAMFILES)\Microsoft SDKs\TypeScript\0.8.0.0\tsc&quot; @(TypeScriptCompile ->'&quot;%(fullpath)&quot;', ' ')" />
+  </Target>
+</Project>
